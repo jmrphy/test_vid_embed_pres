@@ -17,9 +17,8 @@ knit        : slidify::knit2slides
 2. Write using R Markdown
 3. Use an empty line followed by three dashes to separate slides!
 
---- .class #id 
 
-## Slide 2
+--- #myslide
 
 <script>
 $('#myslide').on('slideenter', function(){
